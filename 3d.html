@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <title>Jiahan Project</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+    <header>
+        <div class="center">
+            <h1>My Project Showcase</h1>
+        </div>
+
+        <div class="navbars">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+
+            <div class="dropdowns">
+                <button class="dropbtns">Project content</button>
+                <div class="dropdown-contents">
+                    <a href="CAD.html">CAD</a>
+                    <a href="3d.html">3D Printing</a>
+                    <a href="CNCcutting.html">CNC cutting</a>
+                    <a href="embedded.html">Embedded Programming</a>
+                </div>
+            </div>
+
+            <a href="fablabsafety.html">Safety procedures</a>
+            <a href="resources.html">Resources</a>
+
+        </div>
+    </header>
+    <div class="internal">
+        <h1>Fused filament fabrication (FFF) printer</h1>
+        <h2>Printer slicer: Cura from Ulimaker</h2>
+        <p>After exporting our 3D models from Fusion 360 as .stl format, we load the .stl models <br>in cura and start slicing into .gcode format for the 3D printer.</p>
+        <p>
+            Before slicing into .gcode format, we have to take in to account of supprt stucture, <br>infill, speed, layers of wall and material
+
+        <p> <b>My team members</b> <br>Ye chun - Bridging Test <br>Fatin - Infill density Sizes <br>Jia Han - Tolerance Test<br>Jin Sheng - Overhang Test</p>
+        <p>We wanted to see how well the printer can bridge from one end to another, <br>therefore Ye Chun had CAD out a simple test of bridging ranging from 5 to 50mm.</p>
+        <img class="image" src="image/bridging.jpg">
+        <p>There are different percentage of infill density. To see the different sizes, <br>Fatin had to set the indivisual boxes on her CAD model to different infill <br>percentage on cura</p>
+        <img class="image" src="image/infill.jpg">
+        <p>Tolerance is one of the major considerations when it comes to 3d printing, <br>this means that prints may slightly deviate from the actual dimensions. <br>To test it on the printer, Jia Han had do a series of tolerance gauge ranging <br>from 0.1 to 0.5.  we find that 0.3 is the perfect tolerance when designing an <br>item to print.</p>
+        <img class="image" src="image/tolerance.jpg">
+        <p>We wanted to test the overhang of the printer, So I created a benchmark of <br>overhangs starting from 90° all the way down to 10°. It seems that the <br>printer has no problem printing even at an angle of 10°</p>
+        <img class="image" src="image/overhang.jpg">
+        <p>This is the process of printing our base for our fablight project. It took <br>almost 9 hours to print it out.</p>
+        <img class="image" src="image/3dprintbase.jpg">
+    </div>
+
+    <footer>
+        <div id="footer-container">
+            <section class="footer-info footer-border">
+                <h3>Contact person</h3>
+                <p>Chai Jia Han</p>
+            </section>
+            <br />
+            <br />
+            <section class="footer-info footer-border">
+                <h3>Contact No:</h3>
+                <tel>+65 9132 0220</tel>
+            </section>
+            <br />
+            <br />
+            <section class="footer-info">
+                <h3>Email Address:</h3>
+                <p>C.J.H91320220@hotmail.com</p>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
